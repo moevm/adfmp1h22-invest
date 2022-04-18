@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutFragment"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:paddingStart="5dp"
+                android:text="GREF's ADVICES"
+                android:fontFamily="cursive"
+                android:textSize="40sp"
+                android:textColor="#02b74a" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/german_gref_sberbank" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/graph" />
+
+        <TextView
+            android:id="@+id/textAbout"
+            android:padding="30dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+    </LinearLayout>
+</layout>

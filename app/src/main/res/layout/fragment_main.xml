@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:paddingStart="5dp"
+                android:text="GREF's ADVICES"
+                android:fontFamily="cursive"
+                android:textSize="40sp"
+                android:textColor="#02b74a" />
+
+            <ImageView
+                android:id="@+id/Ebalo"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/german_gref_sberbank" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold"
+                android:text="\nFilter by amount" />
+
+            <Switch
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="\nFilter by risk" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/GAZPROM"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:background="#6AB9AB"
+                    android:layout_height="100dp"
+                    android:text="ГАЗПРОМ \n Ожидаемый рост за 7д +3.5% Риск 0%" />
+
+                <TextView
+                    android:id="@+id/SBERBANK"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="СБЕРБАНК\nОжидаемый рост за 7д  +222500% Риск 4%" />
+
+                <TextView
+                    android:id="@+id/MAGNIT"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="МАГНИТ\nОжидаемый рост за 7д  -10% Риск 7%" />
+
+                <TextView
+                    android:id="@+id/PEREKRESTOK"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="ПЕРЕКРЕСТОК\nОжидаемый рост за 7д  +1% Риск 8%" />
+
+                <TextView
+                    android:id="@+id/KURKRILO"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="КУРКРЫЛО\nОжидаемый рост за 7д  +7% Риск 10%" />
+
+                <TextView
+                    android:id="@+id/ROSTELEKOM"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="РОСТЕЛЕКОМ\nОжидаемый рост за 7д  -2% Риск 11%" />
+
+                <TextView
+                    android:id="@+id/LUKOYL"
+                    android:background="#6AB9AB"
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="ЛУКОЙЛ\nОжидаемый рост за 7д  +30% Риск 22%" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+</layout>
