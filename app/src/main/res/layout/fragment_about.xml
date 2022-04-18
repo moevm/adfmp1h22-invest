@@ -40,13 +40,28 @@
             android:layout_height="wrap_content"
             android:src="@drawable/graph" />
 
-        <TextView
-            android:id="@+id/textAbout"
-            android:padding="30dp"
-            android:textSize="20sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment" />
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textAbout"
+                    android:padding="30dp"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello_blank_fragment" />
 
+                <TextView
+                    android:padding="30dp"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Куплено за последние 24ч: 10000шт.\nПродано за последние 24ч: 5000шт." />
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 </layout>
