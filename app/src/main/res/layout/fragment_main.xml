@@ -69,42 +69,55 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/GAZPROM"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:background="#6AB9AB"
                     android:layout_height="100dp"
                     android:text="ГАЗПРОМ \n К покупке,  +42% через 2д  prob: 81%"/>
+
                 <TextView
+                    android:id="@+id/SBERBANK"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="СБЕРБАНК\n К покупке,  +20% через 26д  prob: 88%"/>
+
                 <TextView
+                    android:id="@+id/MAGNIT"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="МАГНИТ\n К покупке,  +7% через 15д  prob: 91% "/>
+
                 <TextView
+                    android:id="@+id/PEREKRESTOK"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="ПЕРЕКРЕСТОК\n К покупке, +3.5% через 9д  prob: 98%"/>
+
                 <TextView
+                    android:id="@+id/KURKRILO"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="КУРКРЫЛО\n К продаже, -12% через 8д  prob: 77%"/>
+
                 <TextView
+                    android:id="@+id/ROSTELEKOM"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:text="РОСТЕЛЕКОМ\n К продаже, -9% через 19д  prob 85%"/>
+
                 <TextView
+                    android:id="@+id/LUKOYL"
                     android:background="#6AB9AB"
                     android:layout_marginBottom="2dp"
                     android:layout_width="match_parent"
